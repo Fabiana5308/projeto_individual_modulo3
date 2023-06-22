@@ -1,0 +1,30 @@
+1- As entidades necessárias são: Empresas, Tecnologias,coloboradores e empresa_tecnologia.
+
+2- Os principais campos e seus respectivos tipos são:
+-Empresas: id(int),nome(varchar),endereço(varchar),telefone(varchar)e email(varchar).
+-Tecnologias: id(int),nome(varchar)e área(varchar).
+-Empresa_tecnologia: empresa_id(int),tecnologia_id(int).
+-Colaboradores: id(int),nome(varchar),contato(varchar)e empresa_id(int).
+
+3-A tabela empresas está relacionada com a tabela empresa_tecnologia por meio da chave 
+primaria id e da chave estrangeira empresa_id
+
+A tabela tecnologias está relacionada com a tabela empresa_tecnologia por meio da chave 
+primária id e a chave estrangeira tecnologia_id
+
+A tabela empresas está relacionada com a tabela colaboradores por meio da chave
+primária id e da chave estrangeira empresa_id
+
+4- Empresas: id:1, nome: Empresa_A, endereço: Rua Azul, telefone:(00)2222-2222, email:empresaA@gmail.com
+id:2, nome:Empresa_B, endereço: Rua Mar e sol, relefone:(44)4444-4444, email:empresaB@hotmail.com
+
+Tecnologias: id:1, nome: Java, area: Desenvolvimento
+id:2, nome: Python, area: Ánalise de dados
+
+Empresa_tecnologia: empresa_id:1, tecnologia_id:1(Empresa_A utiliza tecnologia Java)
+empresa_id: 2, tecnologia_id: 2(Empresa_B utiliza tecnologia Python)
+
+Colaboradores: id:1, nome: José Luis, contato(99)1234-5678, empresa_id:1(José Luis trabalha na Empresa_A)
+id:2, nome: Luciana Otávio, contato(98)7654-3210, empresa_id:2(Luciana Otávio trabalha na Empresa_B)
+
+
