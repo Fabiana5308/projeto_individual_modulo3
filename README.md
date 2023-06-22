@@ -2,7 +2,7 @@
 
 PROJETO RESILIA_DATA
 
-Desenvolver um banco de dados que irá armazenar dadoa importantes
+Desenvolver um banco de dados que irá armazenar dadoS importantes
 que será utilizado pelo sistema.
 O sistema irá auxiliar na avaliação de quais são as tecnologias que 
 as empresas parceiras(empresas_tecnologia) estão utilizando e quem são seus colaboradores
